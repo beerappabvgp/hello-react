@@ -1,5 +1,6 @@
 import { Age } from "./components/Age"
 import { Button } from "./components/Button"
+import { DisplayUsers } from "./components/DisplayUsers"
 import { ParentComponent } from "./components/ParentComponent"
 
 
@@ -7,8 +8,9 @@ function App() {
   return (
     <div>
       {/* <ParentComponent /> */}
-      <Age age={10} isVoted={true }/>
-      <Age age={20} isVoted={true}/>
+      {/* <Age age={10} isVoted={true }/>
+      <Age age={20} isVoted={true}/> */}
+      <DisplayUsers />
     </div>
   )
 }
