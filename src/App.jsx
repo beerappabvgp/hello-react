@@ -1,12 +1,14 @@
+import { Age } from "./components/Age"
 import { Button } from "./components/Button"
+import { ParentComponent } from "./components/ParentComponent"
 
 
 function App() {
   return (
     <div>
-      <h1>Hello World !!! </h1>
-      {/* This is how we use react components  */}
-      <Button />
+      {/* <ParentComponent /> */}
+      <Age age={10} isVoted={true }/>
+      <Age age={20} isVoted={true}/>
     </div>
   )
 }
