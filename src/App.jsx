@@ -1,6 +1,8 @@
 import { Age } from "./components/Age"
 import { Button } from "./components/Button"
+import { Counter } from "./components/Counter"
 import { DisplayUsers } from "./components/DisplayUsers"
+import { EventExample } from "./components/EventExample"
 import { ParentComponent } from "./components/ParentComponent"
 
 
@@ -10,7 +12,9 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <Age age={10} isVoted={true }/>
       <Age age={20} isVoted={true}/> */}
-      <DisplayUsers />
+      {/* <DisplayUsers /> */}
+      {/* <EventExample /> */}
+      <Counter />
     </div>
   )
 }
