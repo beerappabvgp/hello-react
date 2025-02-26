@@ -15,6 +15,9 @@ function App() {
       {/* <DisplayUsers /> */}
       {/* <EventExample /> */}
       <Counter />
+      <br />
+      <br />
+      <Counter />
     </div>
   )
 }
