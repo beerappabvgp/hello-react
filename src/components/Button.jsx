@@ -15,3 +15,7 @@ export const Button = () => {
     );
 }
 
+
+Button();
+// add(1,2)
+

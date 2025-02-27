@@ -1,5 +1,6 @@
 import { Age } from "./components/Age"
 import { Button } from "./components/Button"
+import { ChildProp } from "./components/ChildProp"
 import { Counter } from "./components/Counter"
 import { DisplayUsers } from "./components/DisplayUsers"
 import { EventExample } from "./components/EventExample"
@@ -14,10 +15,18 @@ function App() {
       <Age age={20} isVoted={true}/> */}
       {/* <DisplayUsers /> */}
       {/* <EventExample /> */}
-      <Counter />
+      {/* <Counter />
       <br />
       <br />
+      <Counter /> */}
+      {/* <ChildProp>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quis tenetur quibusdam repellat iste nesciunt voluptatum voluptatibus animi aspernatur ea officia, consequatur ipsum quod veritatis magni, nemo atque, quos similique.</p>
+        <ul>
+          <li>this is list item 1</li>
+        </ul>
+      </ChildProp> */}
       <Counter />
+      {/* <Button /> */}
     </div>
   )
 }
